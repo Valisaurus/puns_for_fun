@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: rgb(237, 148, 163);
+}
+
+/* container div */
+/* .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: rgb(237, 148, 163);
+  width: 100%;
+  gap: 1.25rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.75rem;
+  margin: 0 auto;
+} */
+/* item div */
+/* .grid-item-text {
+  height: 12.5rem;
+  padding: 2.5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  position: relative;
+} */
+
+/* link who looks like a button. The link shuffles the puns */
+/* .button {
+  width: 4.5rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  background-color: rgb(255, 98, 0);
+  position: absolute;
+  text-align: center;
+} */
+
+/* .grid-item-picture {
+  padding: 2.5rem;
+} */
+
+/* img {
+  height: 100%;
+  width: 100%;
+  margin-left: 1.5rem;
+} */
+
+/* p {
+  visibility: hidden;
+  z-index: 1;
+} */
+/* p:hover {
+  visibility: visible;
+  z-index: 1;
+} */
