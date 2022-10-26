@@ -21,12 +21,17 @@ endif;
 
 
 $catPuns = [
-    ['Author' => "Valle", 'pun' => "Vilken valuta betalar katter med? Kattmynta."],
-
-    ['Author' => "Valle", 'pun' => "Vilken kändis är katters favorit? Kattie Perry."],
-
-    ['Author' => "Valle", 'pun' => "Vilken rappare är katters favorit? Misse Elliot."]
+    "Vilken valuta betalar katter med? Kattmynta.", "Vilken kändis är katters favorit? Kattie Perry.", "Vilken rappare är katters favorit? Misse Elliot."
 ];
+
+
+// $catPuns = [
+//     ['Author' => "Valle", 'pun' => "Vilken valuta betalar katter med? Kattmynta."],
+
+//     ['Author' => "Valle", 'pun' => "Vilken kändis är katters favorit? Kattie Perry."],
+
+//     ['Author' => "Valle", 'pun' => "Vilken rappare är katters favorit? Misse Elliot."]
+// ];
 
 
 $celebritiePuns = [

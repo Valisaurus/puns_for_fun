@@ -23,7 +23,7 @@ require __DIR__ . '/data.php';
 <div class="grid-item-text">
 
     <br> <?php herbPuns($herbPuns); ?>
-    <br> <?php catPuns($catPuns); ?>
+    <br> <?php echo catPuns($catPuns); ?>
 
 
 

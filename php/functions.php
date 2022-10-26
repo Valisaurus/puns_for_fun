@@ -31,10 +31,13 @@ function herbPuns(array $herbPuns)
 
 function catPuns(array $catPuns)
 {
-    foreach ($catPuns as $catPun) :
-        shuffle($catPun);
-        echo "$catPun <br>";
-    endforeach;
+    for ($i = 0; $i < count($catPuns); $i++) {
+        return $catPuns[array_rand($catPuns)];
+    }
+
+
+    //     foreach ($catPuns as $catPun) :
+    //     endforeach;
 }
 
 
