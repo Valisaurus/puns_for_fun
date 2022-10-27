@@ -42,7 +42,7 @@ $celebritiePuns = [
 
 
 $images = [
-    'https://img.freepik.com/free-vector/detailed-essential-oil-herb-collection_23-2148835023.jpg?w=2000',
+    'https://ecowarriorprincess.net/wp-content/uploads/2018/02/Sustainable-Living_-16-Herbs-That-An-Amateur-Green-Thumb-Can-Easily-Grow.png',
 
     'https://img.freepik.com/free-vector/cute-cat-cartoon-characters-illustrations-set-cats-with-heart-shaped-noses-happy-fluffy-kittens-smiling-orange-grey-kitties-sitting-white_74855-20523.jpg?w=2000',
 
