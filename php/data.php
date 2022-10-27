@@ -1,6 +1,5 @@
 <?php
 
-
 // multi-dimensional array about herbs
 $herbPuns = [
     ['Author' => "Valle", 'pun' => "Vilken krydda gör att soldater i flottan doftar gott? Rosmarin."],
@@ -14,25 +13,20 @@ $herbPuns = [
     ['Author' => "Valle", 'pun' => "Vilken dressing älskar alkohol? Vinäger."]
 ];
 
-//determines what pun to show next
-if (is_null($_SESSION['indexPuns'])) :
-    $_SESSION['indexPuns'] = 0;
-endif;
-
+// multi-dimensional array about cats
 
 $catPuns = [
-    "Vilken valuta betalar katter med? Kattmynta.", "Vilken kändis är katters favorit? Kattie Perry.", "Vilken rappare är katters favorit? Misse Elliot."
+    ['Author' => "Valle", 'pun' => "Vilken valuta betalar katter med? Kattmynta."],
+
+    ['Author' => "Valle", 'pun' => "Vilken kändis är katters favorit? Kattie Perry."],
+
+    ['Author' => "Valle", 'pun' => "Vilken rappare är katters favorit? Misse Elliot."],
+
+    ['Author' => "Valle", 'pun' => "Vilken bil kör katter? Mjaudi."]
 ];
 
 
-// $catPuns = [
-//     ['Author' => "Valle", 'pun' => "Vilken valuta betalar katter med? Kattmynta."],
-
-//     ['Author' => "Valle", 'pun' => "Vilken kändis är katters favorit? Kattie Perry."],
-
-//     ['Author' => "Valle", 'pun' => "Vilken rappare är katters favorit? Misse Elliot."]
-// ];
-
+// multi-dimensional array about cats
 
 $celebritiePuns = [
     ['Author' => "Valle", 'pun' => "Vems HipHop konsert är billigast? 50 cent."],
@@ -47,16 +41,32 @@ $celebritiePuns = [
 ];
 
 
+$images = [
+    'https://img.freepik.com/free-vector/detailed-essential-oil-herb-collection_23-2148835023.jpg?w=2000',
+
+    'https://img.freepik.com/free-vector/cute-cat-cartoon-characters-illustrations-set-cats-with-heart-shaped-noses-happy-fluffy-kittens-smiling-orange-grey-kitties-sitting-white_74855-20523.jpg?w=2000',
+
+    'https://www.the-sun.com/wp-content/uploads/sites/6/2022/05/COMPS-DD-CELEBCARTOON.jpg?w=1320'
+];
+
+
+
+
+//determines what pun to show next
+//open side without a session that has started. Starts on index 0.
+
+if (!array_key_exists('indexPuns', $_SESSION)) :
+    // array who gives have a value of 0.
+    $_SESSION['indexPuns'] = [
+        'herb' => 0, 'cat' => 0, 'celebritie' => 0
+    ];
+endif;
+
 
 // $adeleInfo = [
 //     'name' => 'Adele',
 //     'img-url' => 'https://gaffa.blob.core.windows.net/gaffa-media/media/46b5d3c0-de2c-494e-9e95-6fcde5bfaf74/ABBAUtanPrisPaBritAwardsDarAdeleBlevDenStoraVinnaren-default.webp'
 // ];
-
-
-
-// multi-dimensional array
-
 
 
 

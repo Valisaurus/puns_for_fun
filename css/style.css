@@ -8,7 +8,7 @@ body {
 }
 
 /* container div */
-/* .grid {
+.grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   background-color: rgb(237, 148, 163);
@@ -17,36 +17,41 @@ body {
   padding-top: 2.5rem;
   padding-bottom: 2.75rem;
   margin: 0 auto;
-} */
+}
 /* item div */
-/* .grid-item-text {
-  height: 12.5rem;
+
+.grid-item-text {
+  height: 15.5rem;
+  width: 20rem;
   padding: 2.5rem;
   display: flex;
-  justify-content: flex-end;
-  align-items: end;
+  justify-content: center;
   position: relative;
-} */
+}
 
 /* link who looks like a button. The link shuffles the puns */
-/* .button {
-  width: 4.5rem;
+.button {
+  width: 6.5rem;
   height: 2.5rem;
+  border: 0.5rem;
   border-radius: 5px;
+  margin-top: 12rem;
+  margin-left: 2rem;
   background-color: rgb(255, 98, 0);
   position: absolute;
   text-align: center;
-} */
+}
 
 /* .grid-item-picture {
   padding: 2.5rem;
 } */
 
-/* img {
+img {
   height: 100%;
   width: 100%;
   margin-left: 1.5rem;
-} */
+  border-radius: 0.5rem;
+}
 
 /* p {
   visibility: hidden;

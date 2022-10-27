@@ -8,18 +8,12 @@ require __DIR__ . '/data.php';
 // function that loops the puns array with foreach-loop
 function herbPuns(array $herbPuns)
 {
+    $_SESSION['indexPuns']['herb']++;
 
-
-    $_SESSION['indexPuns']++;
-
-    if ($_SESSION['indexPuns'] >= count($herbPuns)) :
-        $_SESSION['indexPuns'] = 0;
+    if ($_SESSION['indexPuns']['herb'] >= count($herbPuns)) :
+        $_SESSION['indexPuns']['herb'] = 0;
     endif;
-    echo $herbPuns[$_SESSION['indexPuns']]['pun'];
-
-
-
-
+    echo $herbPuns[$_SESSION['indexPuns']['herb']]['pun'];
 
 
     // foreach ($herbPuns as $herbPun) :
@@ -31,9 +25,18 @@ function herbPuns(array $herbPuns)
 
 function catPuns(array $catPuns)
 {
-    for ($i = 0; $i < count($catPuns); $i++) {
-        return $catPuns[array_rand($catPuns)];
-    }
+    $_SESSION['indexPuns']['cat']++;
+
+    if ($_SESSION['indexPuns']['cat'] >= count($catPuns)) :
+        $_SESSION['indexPuns']['cat'] = 0;
+    endif;
+    echo $catPuns[$_SESSION['indexPuns']['cat']]['pun'];
+
+
+
+    // for ($i = 0; $i < count($catPuns); $i++) {
+    //     return $catPuns[array_rand($catPuns)];
+    // }
 
 
     //     foreach ($catPuns as $catPun) :
@@ -43,10 +46,21 @@ function catPuns(array $catPuns)
 
 function celebritiePuns(array $celebritiePuns)
 {
+    $_SESSION['indexPuns']['celebritie']++;
+
+    if ($_SESSION['indexPuns']['celebritie'] >= count($celebritiePuns)) :
+        $_SESSION['indexPuns']['celebritie'] = 0;
+    endif;
+    echo $celebritiePuns[$_SESSION['indexPuns']['celebritie']]['pun'];
 }
 
 
+function images(array $images)
+{
+    foreach ($images as $image) :
 
+    endforeach;
+}
 
 
 
