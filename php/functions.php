@@ -58,7 +58,7 @@ function celebritiePuns(array $celebritiePuns)
 function images(array $images)
 {
     foreach ($images as $image) :
-
+        echo $image[0];
     endforeach;
 }
 

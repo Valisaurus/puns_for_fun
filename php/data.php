@@ -49,6 +49,18 @@ $images = [
     'https://www.the-sun.com/wp-content/uploads/sites/6/2022/05/COMPS-DD-CELEBCARTOON.jpg?w=1320'
 ];
 
+$links = [
+    'php/herbpuns.php',
+    'php/catpuns.php',
+    'php/celebertypuns.index'
+];
+
+$buttonInfo = [
+    'KRYDD ORDVITSAR',
+    'KATT ORDVITSAR',
+    'KÄNDIS ORDVITSAR'
+];
+
 
 
 
