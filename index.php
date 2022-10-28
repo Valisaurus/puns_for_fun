@@ -1,9 +1,9 @@
 <?php
 session_start();
 
-require __DIR__ . '/php/header.php';
-require __DIR__ . '/php/functions.php';
-require __DIR__ . '/php/data.php';
+require __DIR__ . '/header.php';
+require __DIR__ . '/functions.php';
+require __DIR__ . '/data.php';
 
 ?>
 
@@ -12,18 +12,20 @@ require __DIR__ . '/php/data.php';
     <a href="/index.php">Home</a>
 </nav> -->
 
-<div class="grid">
+<main class="container">
 
-<?php foreach($images as $key => $image) { ?>
-    <div class="grid-item">
-        <img src="<?php echo $image ?>" />
-<div class="button">
-            <a href="<?php echo $links[$key];?>"><?php echo $buttonInfo[$key];?></a>
-        </div>
-       
-</div>
-    
-<?php } ?>
-</div> 
+    <?php foreach ($images as $key => $image) { ?>
+    <section class="container-items">
+        <section class="item">
+            <img src="<?php echo $image ?>" />
+        </section>
+        <section class="button">
+            <a href="<?php echo $links[$key]; ?>"><?php echo $buttonInfo[$key]; ?></a>
+        </section>
+    </section>
 
-<?php require __DIR__ . '/php/footer.php';?>
+
+    <?php } ?>
+</main>
+
+<?php require __DIR__ . '/footer.php'; ?>

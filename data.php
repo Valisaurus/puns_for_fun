@@ -50,9 +50,9 @@ $images = [
 ];
 
 $links = [
-    'php/herbpuns.php',
-    'php/catpuns.php',
-    'php/celebertypuns.index'
+    'herbpuns.php',
+    'catpuns.php',
+    'celebertypuns.php'
 ];
 
 $buttonInfo = [
