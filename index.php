@@ -15,7 +15,7 @@ require __DIR__ . '/php/data.php';
 <div class="grid">
 
 <?php foreach($images as $key => $image) { ?>
-    <div class="grid-item-text">
+    <div class="grid-item">
         <img src="<?php echo $image ?>" />
 <div class="button">
             <a href="<?php echo $links[$key];?>"><?php echo $buttonInfo[$key];?></a>
