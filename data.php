@@ -28,7 +28,7 @@ $catPuns = [
 
 // multi-dimensional array about cats
 
-$celebritiePuns = [
+$celebertyPuns = [
     ['Author' => "Valle", 'pun' => "Vems HipHop konsert är billigast? 50 cent."],
 
     ['Author' => "Valle", 'pun' => "Vilken golfare äger farlig mark? Tiger Woods."],
@@ -67,10 +67,11 @@ $buttonInfo = [
 //determines what pun to show next
 //open side without a session that has started. Starts on index 0.
 
+
 if (!array_key_exists('indexPuns', $_SESSION)) :
-    // array who gives have a value of 0.
+    // array who have a value of 0.
     $_SESSION['indexPuns'] = [
-        'herb' => 0, 'cat' => 0, 'celebritie' => 0
+        'herb' => 0, 'cat' => 0, 'celeberty' => 0
     ];
 endif;
 

@@ -4,34 +4,27 @@ declare(strict_types=1);
 
 require __DIR__ . '/data.php';
 
+// function to who gets puns and shows different one when updating the webpage
 
-// function that loops the puns array with foreach-loop
-function herbPuns(array $herbPuns)
+function getPuns(array $punsArray, string $indexValue)
 {
-    $_SESSION['indexPuns']['herb']++;
+    $_SESSION['indexPuns'][$indexValue]++;
 
-    if ($_SESSION['indexPuns']['herb'] >= count($herbPuns)) :
-        $_SESSION['indexPuns']['herb'] = 0;
+    if ($_SESSION['indexPuns'][$indexValue] >= count($punsArray)) :
+        $_SESSION['indexPuns'][$indexValue] = 0;
     endif;
-    echo $herbPuns[$_SESSION['indexPuns']['herb']]['pun'];
-
-
-    // foreach ($herbPuns as $herbPun) :
-    // shuffle($herbPun);
-    // echo "$herbPun <br>";
-    // endforeach;
+    echo $punsArray[$_SESSION['indexPuns'][$indexValue]]['pun'];
 }
 
 
-function catPuns(array $catPuns)
+// function which loops the author
+function getAuthor(array $authorArray)
 {
-    $_SESSION['indexPuns']['cat']++;
-
-    if ($_SESSION['indexPuns']['cat'] >= count($catPuns)) :
-        $_SESSION['indexPuns']['cat'] = 0;
-    endif;
-    echo $catPuns[$_SESSION['indexPuns']['cat']]['pun'];
-
+    global $catPuns;
+    foreach ($catPuns as $catPun) :
+        echo "<br> Alla ordvitsar är skrivna av:" . strtoupper($catPun['Author']) . "<br>";
+    endforeach;
+}
 
 
     // for ($i = 0; $i < count($catPuns); $i++) {
@@ -41,28 +34,20 @@ function catPuns(array $catPuns)
 
     //     foreach ($catPuns as $catPun) :
     //     endforeach;
-}
 
 
-function celebritiePuns(array $celebritiePuns)
-{
-    $_SESSION['indexPuns']['celebritie']++;
-
-    if ($_SESSION['indexPuns']['celebritie'] >= count($celebritiePuns)) :
-        $_SESSION['indexPuns']['celebritie'] = 0;
-    endif;
-    echo $celebritiePuns[$_SESSION['indexPuns']['celebritie']]['pun'];
-}
+    // function images(array $images)
+    // {
+    //     foreach ($images as $image) :
+    //         echo $image[0];
+    //     endforeach;
+    // }
 
 
-// function images(array $images)
-// {
-//     foreach ($images as $image) :
-//         echo $image[0];
-//     endforeach;
-// }
-
-
+    // foreach ($herbPuns as $herbPun) :
+    // shuffle($herbPun);
+    // echo "$herbPun <br>";
+    // endforeach;
 
 
 

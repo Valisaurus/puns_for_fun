@@ -14,7 +14,7 @@
         <section class="header">
             <h1>PUNS FOR FUN</h1>
         </section>
-        <nav class="button2">
+        <nav class="button-home">
 
             <a href="index.php">HEM</a>
 
