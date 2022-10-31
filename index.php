@@ -6,12 +6,6 @@ require __DIR__ . '/functions.php';
 require __DIR__ . '/data.php';
 
 ?>
-
-
-<!-- <nav>
-    <a href="/index.php">Home</a>
-</nav> -->
-
 <main class="container">
 
     <?php foreach ($images as $key => $image) { ?>

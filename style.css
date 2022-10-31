@@ -68,7 +68,7 @@ h1 {
   background-color: #000000;
   border: 0.1rem solid #000000;
   box-shadow: 0.3rem 0.2rem #ffffff;
-  color: var(--font-color);
+  color: #cc74b8fc;
   margin: 0 auto;
   padding-top: 0.6rem;
   text-align: center;
@@ -80,7 +80,7 @@ h1 {
   border: 0.1rem solid #000000;
   border-radius: 0.5rem;
   margin-top: 1.5rem;
-  background-color: var(--bg2-color);
+  background-color: #000000;
   text-align: center;
   box-shadow: 0.3rem 0.2rem #1c0857;
 }
@@ -118,10 +118,10 @@ img {
 
 a:link {
   text-decoration: none;
-  color: var(--font-color);
+  color: #cc74b8fc;
 }
 a:visited {
-  color: #798bad;
+  color: #cc74b8fc;
 }
 
 .footer {
