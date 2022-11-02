@@ -3,6 +3,7 @@ INSERT MANDATORY GIF
 # Project Title
 
 A website that contains self written puns. I made this website because i love puns and love writing my own.
+https://vali-al-osachi.se/puns_for_fun/
 
 <!-- Text about the project and why it exists. This would also be a great place to link the project on One.com. -->
 
