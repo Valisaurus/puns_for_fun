@@ -9,14 +9,14 @@
 * {
   box-sizing: border-box;
 }
-
+/* body */
 body {
   height: 100vh;
   margin: 0 auto;
   background-color: var(--bodybg-color);
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-
+/* header */
 header {
   width: 100%;
   height: 15rem;
@@ -28,7 +28,7 @@ header {
   padding: 2rem;
   text-align: center;
 }
-
+/* h1 */
 h1 {
   font-size: 36px;
 }
@@ -98,17 +98,18 @@ h1 {
   padding-bottom: 2.75rem;
   flex-wrap: wrap;
 }
-
+/* items in the card */
 .card-items {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 2rem;
 }
+/* pun items */
 .item-pun {
   padding: 1rem;
 }
-
+/* images */
 img {
   height: 100%;
   width: 100%;
@@ -116,7 +117,7 @@ img {
   object-fit: cover;
   object-position: center;
 }
-
+/* link styling */
 a:link {
   text-decoration: none;
   color: var(--accent-color);
@@ -124,11 +125,12 @@ a:link {
 a:visited {
   color: var(--accent-color);
 }
-
+/* form text color */
 form {
   color: var(--font-color);
 }
 
+/* footer styling */
 .footer {
   padding: 4rem;
   text-align: center;
@@ -138,6 +140,7 @@ form {
 .date {
   padding-bottom: 0.5rem;
 }
+/* boder styling for the diffrent pixels(0 or 1) */
 .border {
   display: flex;
   flex-direction: row;
