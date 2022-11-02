@@ -3,6 +3,7 @@
   --bodybg-color: #ffffff;
   --bg1-color: #000000;
   --bg2-color: #bff0e5;
+  --accent-color: #cc74b8fc;
 }
 
 * {
@@ -19,7 +20,7 @@ body {
 header {
   width: 100%;
   height: 15rem;
-  background-color: #000000;
+  background-color: var(--bg1-color);
   color: var(--font-color);
   padding: 0rem;
 }
@@ -56,7 +57,7 @@ h1 {
   height: 15.5rem;
   width: 20rem;
   border-radius: 1rem;
-  background-color: black;
+  background-color: var(--bg1-color);
   padding: 1rem;
 }
 
@@ -65,10 +66,10 @@ h1 {
   width: 6.5rem;
   height: 2.5rem;
   border-radius: 0.5rem;
-  background-color: #000000;
-  border: 0.1rem solid #000000;
-  box-shadow: 0.3rem 0.2rem #ffffff;
-  color: #cc74b8fc;
+  background-color: var(--bg1-color);
+  border: 0.1rem solid var(--bg1-color);
+  box-shadow: 0.3rem 0.2rem var(--bodybg-color);
+  color: var(--accent-color);
   margin: 0 auto;
   padding-top: 0.6rem;
   text-align: center;
@@ -77,10 +78,10 @@ h1 {
 .button {
   width: 6.5rem;
   height: 2.5rem;
-  border: 0.1rem solid #000000;
+  border: 0.1rem solid var(--bg1-color);
   border-radius: 0.5rem;
   margin-top: 1.5rem;
-  background-color: #000000;
+  background-color: var(--bg1-color);
   text-align: center;
   box-shadow: 0.3rem 0.2rem #1c0857;
 }
@@ -118,20 +119,20 @@ img {
 
 a:link {
   text-decoration: none;
-  color: #cc74b8fc;
+  color: var(--accent-color);
 }
 a:visited {
-  color: #cc74b8fc;
+  color: var(--accent-color);
 }
 
 form {
-  color: #ffffff;
+  color: var(--font-color);
 }
 
 .footer {
   padding: 4rem;
   text-align: center;
-  background-color: #000000;
+  background-color: var(--bg1-color);
   color: var(--font-color);
 }
 .date {
@@ -146,7 +147,7 @@ form {
 .border-zero {
   width: 0.5rem;
   height: 0.5rem;
-  background-color: #cc74b8fc;
+  background-color: var(--accent-color);
 }
 
 .border-one {

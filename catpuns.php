@@ -17,7 +17,7 @@ require(__DIR__ . '/data.php');
         </div>
         <!-- shuffle button who is a link but looks like a button -->
         <div class="button-shuffle">
-            <a href="catpuns.php">SHUFFLE PUN</a>
+            <a href="catpuns.php">SLUMPA ORDVITS</a>
         </div>
 
     </section>
