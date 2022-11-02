@@ -1,13 +1,14 @@
-<?php
-require __DIR__ . '/data.php';
-?>
 <footer>
     <div class="footer">
-        <?php echo date("Y-m-d"); ?>
-        <br>
-        <?php getAuthor($catPuns);
-        ?>
+        <div class="date">
+            <!-- shows todays date -->
+            <?php echo date("Y-m-d"); ?>
+        </div>
+        <!-- border in the footer -->
+        <div class="border">
+            <?php echo border($pixels); ?>
 
+        </div>
     </div>
 </footer>
 </body>

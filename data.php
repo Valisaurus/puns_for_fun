@@ -55,11 +55,22 @@ $links = [
     'catpuns.php',
     'celebritypuns.php'
 ];
-//indexed array 
+//indexed array
 $buttonInfo = [
     'KRYDD ORDVITSAR',
     'KATT ORDVITSAR',
     'KÄNDIS ORDVITSAR'
+];
+
+
+//indexed array who makes the border
+$pixels = [
+    0, 1, 0, 1, 0, 1, 0, 1,
+    0, 1, 0, 1, 0, 1, 0, 1,
+    0, 1, 0, 1, 0, 1, 0, 1,
+    0, 1, 0, 1, 0, 1, 0, 1,
+    0, 1, 0, 1, 0, 1, 0, 1,
+    0, 1, 0, 1, 0, 1, 0, 1
 ];
 
 //when a website opens, the  session starts on index 0.
@@ -69,5 +80,3 @@ if (!array_key_exists('indexPuns', $_SESSION)) :
         'herb' => 0, 'cat' => 0, 'celebrity' => 0
     ];
 endif;
-
-

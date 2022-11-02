@@ -124,9 +124,33 @@ a:visited {
   color: #cc74b8fc;
 }
 
+form {
+  color: #ffffff;
+}
+
 .footer {
   padding: 4rem;
   text-align: center;
   background-color: #000000;
   color: var(--font-color);
+}
+.date {
+  padding-bottom: 0.5rem;
+}
+.border {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.border-zero {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: #cc74b8fc;
+}
+
+.border-one {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: var(--bg2-color);
 }

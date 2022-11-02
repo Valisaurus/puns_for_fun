@@ -2,7 +2,9 @@ INSERT MANDATORY GIF
 
 # Project Title
 
-Text about the project and why it exists. This would also be a great place to link the project on One.com.
+A website that contains self written puns. I made this website because i love puns and love writing my own.
+
+<!-- Text about the project and why it exists. This would also be a great place to link the project on One.com. -->
 
 # Installation
 
@@ -22,5 +24,5 @@ Code review written by [Jane Doh](https://github.com/username).
 
 Tested by the following people:
 
-1. Jane Doe
-2. John Doe
+1. Emma Hedlund
+2. Filip Jonasson
