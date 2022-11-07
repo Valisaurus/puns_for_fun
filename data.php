@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 // associative multi-dimensional array about herbs
 $herbPuns = [
     ['Author' => "Valle", 'pun' => "Vilken krydda gör att soldater i flottan doftar gott? Rosmarin."],

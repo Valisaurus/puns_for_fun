@@ -1,6 +1,6 @@
 <?php
 session_start();
-session_destroy();
+
 
 require(__DIR__ . '/header.php');
 require(__DIR__ . '/functions.php');
